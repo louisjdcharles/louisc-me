@@ -14,7 +14,7 @@ const BooksFeed = ({ className } : BooksFeedProps) => {
                 <span>I am currently reading:</span>
                 { booksquery.data
                 ? <>
-                    { booksquery.data.map(item => <p>&bull; {item.title}</p>) }
+                    { booksquery.data.map((item, k) => <p key={k}>&bull; {item.title}</p>) }
                 </>
                 : <span>Loading...</span>
                 }

@@ -25,7 +25,7 @@ const MediumFeed = ({ className } : MediumFeedProps) => {
                 <span>My recent blog posts:</span>
                 { blogquery.data
                 ? <>
-                    { blogquery.data.map(item => <p>&bull; <a href={item.link} className="hover:underline">{item.title} ({getDateString(item.date_posted)})</a></p>) }
+                    { blogquery.data.map((item, k) => <p key={k}>&bull; <a href={item.link} className="hover:underline">{item.title} ({getDateString(item.date_posted)})</a></p>) }
                 </>
                 : <span>Loading...</span>
                 }
