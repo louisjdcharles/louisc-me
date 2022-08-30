@@ -50,7 +50,7 @@ const Home: NextPage = () => {
           <div className="md:w-3/5 lg:w-2/5 w-full space-y-4">
             <h2 className="text-4xl border-b border-black">ABOUT</h2>
             <p className="text-sm md:text-base">
-              Hi, I'm Louis, a student based in the United Kingdom.
+              Hi, I&apos;m Louis, a student based in the United Kingdom.
               I am applying to study a degree in computer science at the Universities of
               Cambridge, Bristol, Bath, Warwick and Imperial College London.
             </p>
