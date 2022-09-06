@@ -39,9 +39,6 @@ const Home: NextPage = () => {
               <div>
                 <span>&bull;&nbsp;</span><span>STUDENT&nbsp;</span>
               </div>
-              <div>
-                <span>&bull;&nbsp;</span><span>ENTREPRENEUR&nbsp;</span>
-              </div>
             </div>
           </div>
         </div>
@@ -55,8 +52,8 @@ const Home: NextPage = () => {
               Cambridge, Bristol, Bath, Warwick and Imperial College London.
             </p>
             <p className="text-sm md:text-base">
-              I am passionate about using both technology and creativity to bring
-              interesting ideas to life, and hope to found a company that does
+              I am passionate about using both technology and creativity to solve
+              interesting problems, and hope to found a company that does
               exactly that in future. 
             </p>
           </div>
@@ -76,7 +73,10 @@ const Home: NextPage = () => {
               was nominated for a Bafta Young Game Designers award
             </p>
             <p className="text-sm md:text-base">
-              for details on my other projects, go to my <a className="underline" href="https://github.com/louisjdcharles">GitHub page</a>
+              For details on my other projects, go to my <a className="underline" href="https://github.com/louisjdcharles">GitHub page</a>
+            </p>
+            <p className="text-sm md:text-base">
+              For more details about my current and future projects, see this <a className="underline" href="https://github.com/louisjdcharles">Notion page</a>
             </p>
           </div>
         </div>
