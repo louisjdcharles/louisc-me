@@ -21,8 +21,8 @@ const Home: NextPage = () => {
         <a href="#projects" className="hover:underline hidden md:block">PROJECTS</a>
         <a href="#books" className="hover:underline hidden md:block">BOOKS</a>
         <a href="#blog" className="hover:underline hidden md:block">BLOG</a>
-        <a href="https://github.com/louisjdcharles"><img src="/github-icon.svg" className="sm:w-5 sm:h-5 w-7 h-7"/></a>
-        <a href="https://www.linkedin.com/in/louisjdcharles/"><img src="/linkedin-icon.svg" className="sm:w-5 sm:h-5 w-7 h-7"/></a>
+        <a href="https://github.com/louisjdcharles" aria-label="github"><img src="/github-icon.svg" alt="github" className="sm:w-5 sm:h-5 w-7 h-7"/></a>
+        <a href="https://www.linkedin.com/in/louisjdcharles/" aria-label="linkedin"><img src="/linkedin-icon.svg" alt="linkedin" className="sm:w-5 sm:h-5 w-7 h-7"/></a>
       </div>
 
       <main className="bg-gray-100">
